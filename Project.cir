@@ -1,6 +1,3 @@
-[aimspice]
-[description]
-3157
 * This is a parametrized testbench for your pixel circuit array
 
 * You should at least test your circuit with:
@@ -78,16 +75,3 @@ XP11 1 0 OUT1 EXPOSE ERASE NRE_R1 PixelCircuit
 XP12 1 0 OUT2 EXPOSE ERASE NRE_R1 PixelCircuit
 XP21 1 0 OUT1 EXPOSE ERASE NRE_R2 PixelCircuit
 XP22 1 0 OUT2 EXPOSE ERASE NRE_R2 PixelCircuit
-
-
-
-
-[tran]
-0.1ms
-60ms
-X
-X
-0
-[ana]
-4 0
-[end]
