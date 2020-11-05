@@ -1,0 +1,2151 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w re_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.4 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6032 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:12, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'F:/Active-HDL-Designs/Project/Project/src/sim.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/sim.asdb'.
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/sim.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+run @100ms
+# KERNEL: stopped at time: 100 ms
+run @150ms
+# KERNEL: stopped at time: 150 ms
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6032 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:13, 05 November 2020
+#  Simulation has been initialized
+run @50ms
+# KERNEL: stopped at time: 50 ms
+# Adding file F:\Active-HDL-Designs\Project\Project\src\sim.awc ... Done
+run @50 ms
+# KERNEL: stopped at time: 50 ms
+endsim
+# VSIM: Simulation has finished.
+# Adding file F:\Active-HDL-Designs\Project\Project\src\sim.awc ... Done
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w re_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work Project $dsn/src/Counter.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: re_control.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6032 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:16, 05 November 2020
+#  Simulation has been initialized
+run @50ms
+# KERNEL: stopped at time: 50 ms
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6032 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:16, 05 November 2020
+#  Simulation has been initialized
+run @50ms
+# KERNEL: stopped at time: 50 ms
+# Adding file F:\Active-HDL-Designs\Project\Project\src\sim.awc ... Done
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w re_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work Project $dsn/src/Counter.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: re_control.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:17, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'F:/Active-HDL-Designs/Project/Project/src/sim.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/sim.asdb'.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:18, 05 November 2020
+#  Simulation has been initialized
+run @50ms
+# KERNEL: stopped at time: 50 ms
+# add wave -noreg {/re_control/Start}
+# add wave -noreg {/re_control/Exp_time}
+# add wave -noreg {/re_control/Init}
+# add wave -noreg {/re_control/Exp_increase}
+# add wave -noreg {/re_control/Exp_decrease}
+# add wave -noreg {/re_control/Reset}
+# add wave -noreg {/re_control/Clk}
+# add wave -noreg {/re_control/Expose}
+# add wave -noreg {/re_control/Erase}
+# add wave -noreg {/re_control/ADC}
+# add wave -noreg {/re_control/NRE_1}
+# add wave -noreg {/re_control/NRE_2}
+# add wave -noreg {/re_control/Ovf4}
+# add wave -noreg {/re_control/Ovf5}
+# 14 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:18, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+run @100ms
+# KERNEL: stopped at time: 100 ms
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:19, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:19, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:20, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:20, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:21, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:21, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w re_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work Project $dsn/src/Counter.v $dsn/src/FSM.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: re_control.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6032 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:27, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w re_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work Project $dsn/src/FSM.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: re_control.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6032 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:30, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w re_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work Project $dsn/src/Counter.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: re_control.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6032 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:32, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w re_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work Project $dsn/src/Counter.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: re_control.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:33, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+# add wave -noreg {/re_control/Start}
+# add wave -noreg {/re_control/Exp_time}
+# add wave -noreg {/re_control/Init}
+# add wave -noreg {/re_control/Exp_increase}
+# add wave -noreg {/re_control/Exp_decrease}
+# add wave -noreg {/re_control/Reset}
+# add wave -noreg {/re_control/Clk}
+# add wave -noreg {/re_control/Expose}
+# add wave -noreg {/re_control/Erase}
+# add wave -noreg {/re_control/ADC}
+# add wave -noreg {/re_control/NRE_1}
+# add wave -noreg {/re_control/NRE_2}
+# add wave -noreg {/re_control/Ovf4}
+# add wave -noreg {/re_control/Ovf5}
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Start' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Exp_time' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Init' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Exp_increase' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Exp_decrease' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Reset' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Clk' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Expose' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Erase' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/ADC' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/NRE_1' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/NRE_2' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Ovf4' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Ovf5' has already been traced.
+# 0 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w re_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:34, 05 November 2020
+#  Simulation has been initialized
+# add wave -noreg {/re_control/Start}
+# add wave -noreg {/re_control/Exp_time}
+# add wave -noreg {/re_control/Init}
+# add wave -noreg {/re_control/Exp_increase}
+# add wave -noreg {/re_control/Exp_decrease}
+# add wave -noreg {/re_control/Reset}
+# add wave -noreg {/re_control/Clk}
+# add wave -noreg {/re_control/Expose}
+# add wave -noreg {/re_control/Erase}
+# add wave -noreg {/re_control/ADC}
+# add wave -noreg {/re_control/NRE_1}
+# add wave -noreg {/re_control/NRE_2}
+# add wave -noreg {/re_control/Ovf4}
+# add wave -noreg {/re_control/Ovf5}
+# 14 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:35, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:35, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:46, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:47, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:48, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+# Waveform file 'F:/Active-HDL-Designs/Project/Project/src/sim.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/sim.asdb'.
+# Adding file F:\Active-HDL-Designs\Project\Project\src\sim.asdb ... Done
+# Adding file F:\Active-HDL-Designs\Project\Project\src\sim.awc ... Done
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w re_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work Project $dsn/src/Counter.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: re_control.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.6 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:52, 05 November 2020
+#  Simulation has been initialized
+run @50ms
+# KERNEL: stopped at time: 50 ms
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:52, 05 November 2020
+#  Simulation has been initialized
+run @50ms
+# KERNEL: stopped at time: 50 ms
+endsim
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k12 -work Project $dsn/src/re_control.v $dsn/src/CTRL_exp_time.v $dsn/src/Counter.v $dsn/src/FSM.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: re_control.
+# $root top modules: re_control.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w re_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work Project $dsn/src/Counter.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: re_control.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:52, 05 November 2020
+#  Simulation has been initialized
+run @50ms
+# KERNEL: stopped at time: 50 ms
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:53, 05 November 2020
+#  Simulation has been initialized
+run 50ms
+# KERNEL: stopped at time: 50 ms
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w re_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:53, 05 November 2020
+#  Simulation has been initialized
+# add wave -noreg {/re_control/Start}
+# add wave -noreg {/re_control/Exp_time}
+# add wave -noreg {/re_control/Init}
+# add wave -noreg {/re_control/Exp_increase}
+# add wave -noreg {/re_control/Exp_decrease}
+# add wave -noreg {/re_control/Reset}
+# add wave -noreg {/re_control/Clk}
+# add wave -noreg {/re_control/Expose}
+# add wave -noreg {/re_control/Erase}
+# add wave -noreg {/re_control/ADC}
+# add wave -noreg {/re_control/NRE_1}
+# add wave -noreg {/re_control/NRE_2}
+# add wave -noreg {/re_control/Ovf4}
+# add wave -noreg {/re_control/Ovf5}
+# 14 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w re_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work Project $dsn/src/Counter.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: re_control.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:55, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Start' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Exp_time' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Init' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Exp_increase' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Exp_decrease' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Reset' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Clk' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Expose' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Erase' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/ADC' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/NRE_1' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/NRE_2' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Ovf4' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Ovf5' has already been traced.
+# 0 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:55, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w re_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work Project $dsn/src/Counter.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: re_control.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6032 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:58, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+# add wave -noreg {/re_control/Start}
+# add wave -noreg {/re_control/Exp_time}
+# add wave -noreg {/re_control/Init}
+# add wave -noreg {/re_control/Exp_increase}
+# add wave -noreg {/re_control/Exp_decrease}
+# add wave -noreg {/re_control/Reset}
+# add wave -noreg {/re_control/Clk}
+# add wave -noreg {/re_control/Expose}
+# add wave -noreg {/re_control/Erase}
+# add wave -noreg {/re_control/ADC}
+# add wave -noreg {/re_control/NRE_1}
+# add wave -noreg {/re_control/NRE_2}
+# add wave -noreg {/re_control/Ovf4}
+# add wave -noreg {/re_control/Ovf5}
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Start' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Exp_time' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Init' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Exp_increase' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Exp_decrease' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Reset' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Clk' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Expose' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Erase' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/ADC' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/NRE_1' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/NRE_2' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Ovf4' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Ovf5' has already been traced.
+# 0 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6032 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:58, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6032 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  11:59, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w re_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6032 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  12:01, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w re_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work Project $dsn/src/Counter.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: re_control.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6032 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  12:03, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w re_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work Project $dsn/src/Counter.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: re_control.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6032 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  12:03, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w re_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 're_control' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work Project $dsn/src/Counter.v $dsn/src/re_control.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module FSM_exp_control found in current working library.
+# Info: VCP2113 Module CTRL_exp_time found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: re_control.
+# $root top modules: re_control.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6032 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  12:07, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Start' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Exp_time' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Init' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Exp_increase' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Exp_decrease' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Reset' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Clk' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Expose' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Erase' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/ADC' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/NRE_1' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/NRE_2' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Ovf4' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Ovf5' has already been traced.
+# 0 signal(s) traced.
+run
+endsim
+# KERNEL: stopped at time: 8193 ms
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w re_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6032 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  12:07, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6032 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  12:07, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w re_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work Project $dsn/src/Counter.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: re_control.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6032 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  12:08, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6032 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  12:08, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6032 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  12:08, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w re_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work Project $dsn/src/Counter.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: re_control.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  12:11, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  12:11, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Start' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Exp_time' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Init' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Exp_increase' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Exp_decrease' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Reset' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Clk' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Expose' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Erase' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/ADC' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/NRE_1' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/NRE_2' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Ovf4' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/re_control/Ovf5' has already been traced.
+# 0 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  12:11, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w re_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work Project $dsn/src/Counter.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: re_control.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  12:14, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  12:14, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  12:16, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w re_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work Project $dsn/src/CTRL_exp_time.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: re_control.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  12:19, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w re_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work Project $dsn/src/FSM.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: re_control.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  12:21, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @50ms
+# KERNEL: stopped at time: 50 ms
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  12:21, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
+# Waveform file 'F:/Active-HDL-Designs/Project/Project/src/sim.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/sim.asdb'.
+# Adding file F:\Active-HDL-Designs\Project\Project\src\sim.asdb ... Done
+# Adding file F:\Active-HDL-Designs\Project\Project\src\sim.awc ... Done
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w re_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work Project $dsn/src/CTRL_exp_time.v $dsn/src/Counter.v $dsn/src/FSM.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: re_control.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.5 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.9 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.9 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  12:38, 05 November 2020
+#  Simulation has been initialized
+run @50ms
+# KERNEL: stopped at time: 50 ms
+endsim
+# VSIM: Simulation has finished.
+# Adding file F:\Active-HDL-Designs\Project\Project\src\sim.awc ... Done
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w re_control
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k12 -work Project $dsn/src/FSM.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# $root top modules: re_control.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.3 [s]
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  12:38, 05 November 2020
+#  Simulation has been initialized
+run @50ms
+# KERNEL: stopped at time: 50 ms
+# add wave -noreg {/re_control/Start}
+# add wave -noreg {/re_control/Exp_time}
+# add wave -noreg {/re_control/Init}
+# add wave -noreg {/re_control/Exp_increase}
+# add wave -noreg {/re_control/Exp_decrease}
+# add wave -noreg {/re_control/Reset}
+# add wave -noreg {/re_control/Clk}
+# add wave -noreg {/re_control/Expose}
+# add wave -noreg {/re_control/Erase}
+# add wave -noreg {/re_control/ADC}
+# add wave -noreg {/re_control/NRE_1}
+# add wave -noreg {/re_control/NRE_2}
+# add wave -noreg {/re_control/Ovf4}
+# add wave -noreg {/re_control/Ovf5}
+# 14 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+run @100ms
+# KERNEL: stopped at time: 100 ms
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ns.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 4 (100.00%) other processes in SLP
+# SLP: 0 signals in SLP and 40 (100.00%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6031 kB (elbread=1280 elab2=4618 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location F:\Active-HDL-Designs\Project\Project\src\wave.asdb
+#  12:39, 05 November 2020
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/Active-HDL-Designs/Project/Project/src/wave.asdb'.
+r

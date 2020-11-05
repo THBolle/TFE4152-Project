@@ -1,0 +1,1 @@
+-o F:/Active-HDL-Designs/Project/Project/compile -lc F:/Active-HDL-Designs/Project/library.cfg -fl F:/Active-HDL-Designs/Project/Project/projlib.cfg -pli "E:/Active-HDL/bin/systf.dll" -epr F:/Active-HDL-Designs/Project/Project/compile/Project.epr -O2 -sve -msg 5 -sv2k12 -work Project F:/Active-HDL-Designs/Project/Project/src/FSM.v 
